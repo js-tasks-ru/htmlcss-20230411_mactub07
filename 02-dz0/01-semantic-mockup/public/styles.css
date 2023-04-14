@@ -1,0 +1,36 @@
+body {
+    color: white;
+}
+header {
+    background-color: red;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.header-nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.header-nav :link {
+    color: white;
+}
+
+main {
+    background-color: green;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+article {
+    background-color: blue;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: mediumpurple;
+}
