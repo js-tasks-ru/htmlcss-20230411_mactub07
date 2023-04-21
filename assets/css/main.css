@@ -26,5 +26,9 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+html {
+    font-size: 14px;
 }

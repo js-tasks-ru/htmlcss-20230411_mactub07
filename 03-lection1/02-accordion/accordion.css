@@ -1,9 +1,35 @@
+details > summary {
+    list-style: none;
+}
+
+details > summary::marker, /* Latest Chrome, Edge, Firefox */
+details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+}
+
 .accordion {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 8px;
 }
+
 .accordion__details {
+    padding: 32px;
+}
+
+.details {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px
+}
+.details__summary {
 
 }
-.accordion__summary {
-
+.details__content {
+    margin-top: 16px;
 }
