@@ -24,7 +24,7 @@ details > summary::-webkit-details-marker /* Safari */ {
     font-weight: normal;
     font-size: 1.14rem;
     line-height: 1.71rem;
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3, gray);
     border-radius: 8px
 }
 .details__summary {
