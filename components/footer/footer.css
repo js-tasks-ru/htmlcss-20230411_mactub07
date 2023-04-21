@@ -4,3 +4,17 @@
     align-items: center;
     background-color: white;
 }
+.footer__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.71rem;
+    line-height: 3.43rem;
+    color: #212429;
+}
+.footer__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
