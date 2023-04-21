@@ -1,1 +1,75 @@
-/* Стилизация кнопки */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+.button {
+    all: unset;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.14rem;
+    line-height: 1.36rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    color: var(--white);
+    border-radius: 8px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+/*button primary*/
+.button_primary {
+    background-color: var(--button_primary, blue);
+    border: 1px solid var(--button_primary);
+}
+.button_primary:hover {
+    background-color: var(--button_primary_hovered, blue);
+    border: 1px solid var(--button_primary_hovered);
+}
+.button_primary:active {
+    background-color: var(--button_primary_hovered, blue);
+    border: 1px solid var(--button_primary_hovered);
+}
+.button_primary:disabled {
+    background-color: var(--button_primary, blue);
+    opacity: 0.5;
+    cursor: default;
+}
+
+/*button secondary*/
+.button_secondary {
+    background-color: var(--button_secondary, purple);
+    border: 1px solid var(--button_secondary);
+}
+.button_secondary:hover {
+    background-color: var(--button_secondary_hovered, blue);
+    border: 1px solid var(--button_secondary_hovered);
+}
+.button_secondary:active {
+    background-color: var(--button_secondary_hovered, blue);
+    border: 1px solid var(--button_secondary_hovered);
+}
+.button_secondary:disabled {
+    background-color: var(--button_secondary, purple);
+    opacity: 0.5;
+    cursor: default;
+}
+
+/*button alternate*/
+.button_alternate {
+    background-color: var(--button_alternate, white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4)
+}
+.button_alternate:hover {
+    border: 1px solid var(--black);
+}
+.button_alternate:active {
+    border: 1px solid var(--black);
+}
+.button_alternate:disabled {
+    opacity: 0.5;
+    cursor: default;
+    border: 1px solid var(--grey-3);
+}
