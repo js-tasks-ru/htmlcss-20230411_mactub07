@@ -1,12 +1,3 @@
-details > summary {
-    list-style: none;
-}
-
-details > summary::marker, /* Latest Chrome, Edge, Firefox */
-details > summary::-webkit-details-marker /* Safari */ {
-    display: none;
-}
-
 .accordion {
     display: flex;
     flex-direction: column;
@@ -15,21 +6,23 @@ details > summary::-webkit-details-marker /* Safari */ {
 }
 
 .accordion__details {
-    padding: 32px;
-}
-
-.details {
     font-family: Inter, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.14rem;
     line-height: 1.71rem;
     border: 1px solid var(--grey-3, gray);
-    border-radius: 8px
+    border-radius: 8px;
+    padding: 24px 32px;
 }
-.details__summary {
 
+.accordion__summary {
+    list-style: none;
 }
-.details__content {
+.accordion__summary::marker, /* Latest Chrome, Edge, Firefox */
+.accordion__summary::-webkit-details-marker /* Safari */{
+    display: none;
+}
+.accordion__content {
     margin-top: 16px;
 }
