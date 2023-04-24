@@ -4,13 +4,3 @@
     flex-direction: column;
     background-color: white;
 }
-.page__header {
-    padding: 5.79vh 11.11vw 4.64vh 11.11vw;
-}
-.page__content {
-    padding: 50px;
-}
-.page__footer {
-    padding: 4.28vh 26.60vw 8.20vh;
-    text-align: center;
-}
