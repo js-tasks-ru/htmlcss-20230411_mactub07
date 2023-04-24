@@ -12,9 +12,6 @@ details > summary::-webkit-details-marker /* Safari */ {
     flex-direction: column;
     justify-content: center;
     row-gap: 8px;
-}
-
-.accordion__details {
     padding: 32px;
 }
 
