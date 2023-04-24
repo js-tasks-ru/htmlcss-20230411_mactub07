@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    background-color: white;
+}
+.header__title {
+    font-weight: 500;
+    font-size: 3.57rem;
+    line-height: 4.57rem;
+    color: #212429;
+}
