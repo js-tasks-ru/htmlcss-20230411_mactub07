@@ -3,11 +3,11 @@
     font-family: Roboto, serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.14rem;
-    line-height: 1.36rem;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
     cursor: pointer;
-    padding: 1rem;
+    padding: 15px;
     color: var(--white);
     border-radius: 8px;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
