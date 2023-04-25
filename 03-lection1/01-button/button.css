@@ -15,8 +15,7 @@
 
 .button:disabled {
     opacity: 0.5;
-    cursor: default;
-    pointer-events: none
+    pointer-events: none;
 }
 
 /*button primary*/
