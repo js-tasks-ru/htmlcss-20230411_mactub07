@@ -23,8 +23,18 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --button_primary: #4263EB;
+    --button_primary_hovered: #2342C0;
+    --button_secondary: var(--purple);
+    --button_secondary_hovered: #5028C6;
+    --button_alternate: var(--white);
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+html {
+    font-size: 14px;
 }

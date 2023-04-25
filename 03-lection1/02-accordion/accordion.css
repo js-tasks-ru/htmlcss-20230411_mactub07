@@ -1,1 +1,28 @@
-/* Стилизация аккордеона */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 8px;
+}
+
+.accordion__details {
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    border: 1px solid var(--grey-3, gray);
+    border-radius: 8px;
+    padding: 24px 32px;
+}
+
+.accordion__summary {
+    list-style: none;
+}
+.accordion__summary::marker, /* Latest Chrome, Edge, Firefox */
+.accordion__summary::-webkit-details-marker /* Safari */{
+    display: none;
+}
+.accordion__content {
+    margin-top: 16px;
+}
